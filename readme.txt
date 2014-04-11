@@ -15,7 +15,7 @@ It is extension of Responsive Contact Form to integrate leads to your mailchimp 
 
 Contact Us Form is a simple WordPress plugin that generates a responsive contact form on your website or blog. Mailchimp Extension provides you the way to add your leads to your mailchimp account.
 
-To connect the MailChimp Widget to a MailChimp account, a valid MailChimp API Key is needed. Add the MailChimp API Key and click "Save Changes" to continue. You will be prompted with list of your mailchimp lists. Check the mailchimp list to which you want to subscribe your leads and save changes.
+To connect the Responsive Contact Form to a MailChimp account, a valid MailChimp API Key is needed. Add the MailChimp API Key and click "Save Changes" to continue. You will be prompted with list of your mailchimp lists. Check the mailchimp list to which you want to subscribe your leads and save changes.
 
 == Installation ==
 
