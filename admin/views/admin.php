@@ -24,12 +24,14 @@
 		} else { ?>
 		<td>
 			<ul id="aimc-lists">
-			<?php $options =  get_option('aimclists') ; ?>
+			<?php 
+			$options="";
+			$options =  get_option('aimclists') ; ?>
 			<?php 
 			foreach($lists['data'] as $list) {?>
 				<li>
 					<label>
-						<input type="checkbox" name="aimclists[<?php echo esc_attr($list['id']); ?>]" value="1" <?php checked( 1 == $options[$list['id']] ); ?> /><?php echo $list['name'];?>
+						<input type="checkbox" name="aimclists[<?php echo esc_attr($list['id']); ?>]" value="1" <?php if($options!=""):checked( 1 == $options[$list['id']] ); endif ?> /><?php echo $list['name'];?>
 					</label>
 				</li>
 			<?php } ?>

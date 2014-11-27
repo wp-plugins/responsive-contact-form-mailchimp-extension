@@ -9,7 +9,7 @@
  * Plugin Name:       Responsive Contact Form MailChimp Extension
  * Plugin URI:        http://www.augustinfotech.com
  * Description:       It is extension of Responsive Contact Form.responsive contact form data subscribed to selected the mailchimp list(s) 
- * Version:           1.0.0
+ * Version:           1.1
  * Author:            August Infotech
  * Author URI:        http://www.augustinfotech.com
  * Text Domain:       ai-me-contactform

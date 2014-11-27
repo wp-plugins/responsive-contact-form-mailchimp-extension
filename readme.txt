@@ -3,7 +3,7 @@ Contributors: augustinfotech
 Tags: Responsive Contact Form,Contact Form, text, contact, form, contacts, contact form, request, contact me, feedback form, feedback, contact button, contact form plugin, contacts form plugin, attachment, send, copy, attachment, send copy
 Requires at least: 3.6
 Tested up to: 4.0
-Stable tag: 1.0
+Stable tag: 1.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -35,6 +35,8 @@ To connect the Responsive Contact Form to a MailChimp account, a valid MailChimp
 = 1.0 =
 * First version.
 
+= 1.1 =
+* Resolve mailchimp list export bug.
 
 == Upgrade Notice ==
 * Upgrade Notice Notification
