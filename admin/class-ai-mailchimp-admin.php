@@ -64,8 +64,7 @@ class AI_MailChimp_Admin {
 	
 	public function add_plugin_admin_menu() {
 
-		$this->plugin_screen_hook_suffix = add_menu_page(__('AI MailChimp Settings','ai-me-contactform'),__('AI MailChimp Settings','ai-me-contactform'),'manage_options',$this->plugin_slug,array( $this, 'display_plugin_admin_page' ),'');
-		
+		$this->plugin_screen_hook_suffix = add_submenu_page( 'ai_contact', __('MailChimp Settings','ai-me-contactform'), __('MailChimp Settings','ai-me-contactform'), 'manage_options', $this->plugin_slug, array( $this, 'display_plugin_admin_page' ) );
 		
 	}
 
